@@ -90,5 +90,6 @@ $digit-line-height:     100px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "responsive",
         "custom"
 ;
