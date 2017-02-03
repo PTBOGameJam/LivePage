@@ -3,3 +3,19 @@
     max-width: 32px;
     margin-top: -7px;
 }
+
+ul > li
+{
+    color: #333;
+}
+
+.hub img {
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 200px;
+}
+
+.hub img:hover {
+     -webkit-filter: brightness(0%); /* Safari */
+    filter: brightness(0%);
+}
