@@ -20,3 +20,17 @@ ul > li
      -webkit-filter: brightness(0%); /* Safari */
     filter: brightness(0%);
 }
+
+#wifi-msg {
+    margin-top: 40px;
+}
+#wifi-msg span {
+    color: $grey40;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#wifi-msg > p > span:nth-child(1)
+{
+    padding-left: 0px;
+}
