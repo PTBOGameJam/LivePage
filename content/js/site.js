@@ -20,22 +20,6 @@ jQuery(document).ready(function () {
 
 
     /* ==========================================================================
-    CountDown Timer
-    ========================================================================== */
-    $('#countdown_dashboard').countDown({
-        targetDate: {
-            'day': 19,
-            'month': 2,
-            'year': 2017,
-            'hour': 18,
-            'min': 0,
-            'sec': 0
-        },
-        omitWeeks: true
-    });
-
-
-    /* ==========================================================================
     ToolTip
     ========================================================================== */
     $("a[data-rel=tooltip]").tooltip({container: 'body'});
@@ -50,7 +34,7 @@ jQuery(document).ready(function () {
 	if (onMobile === true) {
         $("a[data-rel=tooltip]").tooltip('destroy');
         jQuery('#team-section').css("background-attachment", "scroll");
-        $('#home-section').css({background: 'url(images/background/1-1920x1200.jpg)'});
+        $('#home-section').css({background: 'url(/content/images/background.jpg)'});
             $('#home-section').css({backgroundSize: 'cover'});
             $('#home-section').css({backgroundPosition: 'center center'});
     } else {

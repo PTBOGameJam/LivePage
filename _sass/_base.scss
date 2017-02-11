@@ -302,7 +302,7 @@ strong { font-weight: 700; }
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-image: url(../images/background/1-1920x1200.jpg);
+    background-image: url(/content/images/background.jpg);
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -311,7 +311,7 @@ strong { font-weight: 700; }
 
 /* Pattern
 ---------------------------------------------------------------------------*/
-.pattern #home-section { background: url(../images/background/pattern.png) repeat; }
+// .pattern #home-section { background: url(../images/background/pattern.png) repeat; }
 .pattern #home-section-wrapper { background-color: rgba(0, 0, 0, 0.0); }
 
 /* Static Color
@@ -476,6 +476,13 @@ h1#welcome-msg-mobile { display: none; }
     color: $primary-color;
     margin: 0 0 15px 80px;
 }
+.services-box .title-desc a {
+    color: $primary-color;
+}
+.services-box .title-desc a:hover {
+    color: $grey40;
+}
+
 
 /* 6.2.5 Containt
 ---------------------------------------------------------------------------*/
