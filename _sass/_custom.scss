@@ -22,7 +22,13 @@ ul > li
 }
 
 #wifi-msg {
-    margin-top: 40px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
 }
 #wifi-msg span {
     color: $grey40;
