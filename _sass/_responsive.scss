@@ -87,6 +87,38 @@
 
 }
 
+@media only screen and (min-width: 1900px) {
+    .digit {
+        height: 300px;
+        font-size: 300px;
+        line-height: 300px;
+        font-weight: 600;
+    }
+
+    .days_dash:after,
+    .hours_dash:after,
+    .minutes_dash:after {
+        top: 15px;
+        right: -41px;
+        font-size: 235px;
+    }
+    #countdown_dashboard {
+        max-width: 80%;
+    }
+
+    h1#welcome-msg
+    {
+        display: none;
+    }
+
+    .dash_title {
+        font-size: 45px;
+        line-height: 45px;
+        height: 45px;
+        font-weight: 600;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     #Our-Services-section li {
         list-style-type: none;

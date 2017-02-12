@@ -361,11 +361,11 @@ h1#welcome-msg-mobile { display: none; }
 /* 5.2 Digit
 ---------------------------------------------------------------------------*/
 .digit {
-    height: $digit-line-height;
+    height: 100px;
     color: #ffffff;
-    font-size: $digit-font-size;
+    font-size: 100px;
     font-weight: 400;
-    line-height: $digit-line-height;
+    line-height: 100px;
     text-align: center;
     position: relative;
     font-style: normal;

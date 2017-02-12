@@ -72,26 +72,15 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
-$digit-font-size:        100px;
+$digit-font-size:       100px;
 $digit-line-height:     100px;
 
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "responsive",
