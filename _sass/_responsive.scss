@@ -87,7 +87,40 @@
 
 }
 
-@media only screen and (min-width: 1900px) {
+
+@media only screen and (min-width: 1280px) and (max-width: 1281px) {
+    .digit {
+        height: 200px;
+        font-size: 200px;
+        line-height: 200px;
+        font-weight: 600;
+    }
+
+    .days_dash:after,
+    .hours_dash:after,
+    .minutes_dash:after {
+        top: 17px;
+        right: -34px;
+        font-size: 150px;
+    }
+    #countdown_dashboard {
+        max-width: 80%;
+    }
+
+    h1#welcome-msg
+    {
+        display: none;
+    }
+
+    .dash_title {
+        font-size: 45px;
+        line-height: 45px;
+        height: 45px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 1921px) {
     .digit {
         height: 300px;
         font-size: 300px;
